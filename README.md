@@ -79,13 +79,18 @@ adversarial-ai-games/
 │   ├── ai_vs_ai_connect4.py            # AI vs AI Connect 4
 │   └── ai_vs_ai_othello.py             # AI vs AI Othello
 │
+├── experiments/                        # Benchmarking / experiments
+│   ├── __init__.py
+│   └── benchmark.py                    # Compare agents (MCTS vs Minimax, Random, Iterative Deepening)
+│
 ├── core/                 
 │   ├── __init__.py
 │   ├── timer.py
 │   └── transposition_table.py           
 │
 ├── .gitignore            
-├── README.md              
+├── README.md
+├── LICENSE                 
 └── requirements.txt      
 ```
 
